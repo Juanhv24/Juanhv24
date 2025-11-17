@@ -24,7 +24,7 @@ Actualmente estoy estudurando en el bootcamp <strong>TripleTen</strong> y desarr
   <li>🎯 Mi objetivo: convertirme en Data Scientist Junior antes de finalizar el año.</li>
   <li>🤝 ¿Quieres conectar conmigo?  
     <a href="https://www.linkedin.com/in/Juanhv24">
-      <img src="https://img.shields.io/badge/LinkedIn-Juan%20Daniel-blue?style=flat&logo=linkedin">
+      <img src="https://img.shields.io/badge/LinkedIn-[Juan%20Daniel-blue?style=flat&logo=linkedin](https://www.linkedin.com/in/juan-hernandez-vargas/)">
     </a>
   </li>
 </ul>
