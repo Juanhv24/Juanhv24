@@ -1,4 +1,3 @@
-## Hi there 👋
 <p align="center">
   <img src="Images/data_image.jpg">
 </p>
