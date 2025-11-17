@@ -1,6 +1,6 @@
 <p align="center">
   <img src="Images/data_image.jpg">
-  <font size='20'><strong>Hola, soy Juan</strong></font>
+  <h1>Hola, soy Juan</h1>
 </p>
 
 
