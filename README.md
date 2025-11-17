@@ -14,7 +14,7 @@
 
 <p>
 Soy biólogo en transición al mundo de la <strong>Ciencia de Datos</strong>, combinando mi enfoque analítico con habilidades técnicas para resolver problemas reales con datos.  
-Actualmente estoy estudurando en el bootcamp <strong>TripleTen</strong> y desarrollando proyectos de EDA, modelos predictivos y análisis estadístico.
+Actualmente estoy estudiando en el bootcamp <strong>TripleTen</strong> y desarrollando proyectos de EDA, modelos predictivos y análisis estadístico.
 </p>
 
 <ul>
