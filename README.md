@@ -23,8 +23,8 @@ Actualmente estoy estudurando en el bootcamp <strong>TripleTen</strong> y desarr
   <li>📘 Tengo experiencia en MS Excel, análisis exploratorio y visualización.</li>
   <li>🎯 Mi objetivo: convertirme en Data Scientist Junior antes de finalizar el año.</li>
   <li>🤝 ¿Quieres conectar conmigo?  
-    <a href="https://www.linkedin.com/in/Juanhv24">
-      <img src="https://img.shields.io/badge/LinkedIn-Juan%20Daniel-blue?style=flat&logo=linkedin">
+    <a href="https://www.linkedin.com/in/juan-hernandez-vargas/">
+      <img src="https://img.shields.io/badge/LinkedIn-Juan%20Hernandez-blue?style=flat&logo=linkedin">
     </a>
   </li>
 </ul>
