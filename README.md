@@ -1,5 +1,6 @@
 ## Hi there 👋
 ![Data Science](Images/data_image.jpg)
+<img src="Images/data_image.jpg" height="200">
 <!--
 **Juanhv24/Juanhv24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
