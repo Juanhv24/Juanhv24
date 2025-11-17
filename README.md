@@ -1,6 +1,9 @@
 <p align="center">
   <img src="Images/data_image.jpg">
+  <strong>Hola, soy Juan</strong>
 </p>
+
+
 <!--
 **Juanhv24/Juanhv24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
