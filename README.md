@@ -61,10 +61,15 @@ Actualmente estoy estudiando en el bootcamp <strong>TripleTen</strong> y desarro
 <h2>🔥 Mis estadísticas</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Juanhv24&show_icons=true&theme=tokyonight&hide_border=true" width="500"/>
+  <!-- Stats generales -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Juanhv24&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="500"/>
   <br><br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Juanhv24&theme=tokyonight&hide_border=true" width="500"/>
+
+  <!-- Racha (streak) usando el nuevo dominio -->
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user=Juanhv24&theme=tokyonight&hide_border=true" width="500"/>
   <br><br>
+
+  <!-- Lenguajes más usados -->
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Juanhv24&layout=compact&theme=tokyonight&hide_border=true" width="400"/>
 </p>
 
