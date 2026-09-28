@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-<h1 align="center">Hola, soy Juan Daniel Hernandez 👋</h1>
+<h1 align="center">Hola, soy Juan 👋</h1>
 
 <p align="center">
   <a href="https://juanhv24.github.io/es.html">
