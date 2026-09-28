@@ -1,9 +1,11 @@
 <p align="center">
-  <img src="Images/data_image.jpg" alt="Banner" style="max-width:100%;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="Images/banner_dark.png">
+    <img src="Images/banner_light.png" alt="Juan Daniel Hernández Vargas — Data Scientist · Statistical Analytics · Machine Learning · Data Quality" width="100%">
+  </picture>
 </p>
 
 <h1 align="center">Hi, I'm Juan Daniel Hernandez 👋</h1>
-<h3 align="center">Data Scientist · Statistical Analytics · Machine Learning</h3>
 
 <p align="center">
   <a href="https://juanhv24.github.io/en.html">
