@@ -129,30 +129,16 @@ Full credit-scoring pipeline with out-of-time validation, SHAP audit and an ethi
 
 ---
 
-### 🏦 [Customer Churn Prediction & Explainable AI — Beta Bank](https://github.com/Juanhv24/Beta-Bank)
-Predicting which bank customers are likely to churn using **Random Forest + SMOTE** on an imbalanced dataset. SHAP analysis identifies the key drivers: age, activity status, and geography.
+## 🗂️ Other Projects
 
-| Metric | Result |
-|--------|--------|
-| F1 Score | **0.62** |
-| AUC-ROC | **0.86** |
-| Models tested | 3 |
-
-`Python` `Scikit-Learn` `Random Forest` `SHAP` `SMOTE` `Imbalanced-learn`
-
----
-
-### ⚙️ [Job Application Tracker — Chrome Extension & Serverless Backend](https://github.com/Juanhv24/job-tracker)
-One click logs a job posting into a Google Sheet: a Chrome extension scrapes the listing, an Apps Script backend drafts the outreach message and a cover-letter PDF with Claude, and a scheduled Gmail job advances each application's stage on its own. No API key ships inside the extension — every credential stays server-side.
-
-`JavaScript` `Chrome Extension (MV3)` `Google Apps Script` `Anthropic API` `Gmail API`
+- ⚙️ **[Job Application Tracker — Chrome Extension & Serverless Backend](https://github.com/Juanhv24/job-tracker)** · One click logs a job posting into a Google Sheet: an Apps Script backend drafts the outreach message and a cover letter with Claude, and a scheduled Gmail job advances each application's stage. `JavaScript` `Chrome Extension (MV3)` `Google Apps Script` `Anthropic API`
+- 🏦 **[Customer Churn Prediction — Beta Bank](https://github.com/Juanhv24/Beta-Bank)** · Churn classifier on an imbalanced dataset: a Random Forest with minority-class upsampling reached **F1 0.62** and **AUC-ROC 0.86** on the test set, above the 0.59 target. `Scikit-Learn` `Random Forest`
 
 ---
 
 ## 🚧 In Progress
 
 - 🧬 **[Mice Protein Expression — Supervised Learning](https://github.com/Juanhv24/mice-supervisado)** · Course project on protein expression data from a mouse model of Down syndrome: EDA, regression and multiclass classification. `Scikit-Learn` `uv`
-- 🇨🇴 **Colombian open-data series** · Vehicle insurance (SOAT) claims EDA, financial inclusion gap analysis and SME credit access with DANE micro-business data.
 
 ---
 

@@ -129,30 +129,16 @@ Pipeline completo de scoring crediticio con validación fuera de tiempo (OOT), a
 
 ---
 
-### 🏦 [Predicción de Churn & IA Explicable — Beta Bank](https://github.com/Juanhv24/Beta-Bank)
-Predicción de qué clientes bancarios tienen mayor probabilidad de abandonar el banco, usando **Random Forest + SMOTE** sobre un dataset desbalanceado. El análisis SHAP identifica los factores clave: edad, estado de actividad y geografía.
+## 🗂️ Otros Proyectos
 
-| Métrica | Resultado |
-|---------|-----------|
-| F1 Score | **0.62** |
-| AUC-ROC | **0.86** |
-| Modelos evaluados | 3 |
-
-`Python` `Scikit-Learn` `Random Forest` `SHAP` `SMOTE` `Imbalanced-learn`
-
----
-
-### ⚙️ [Seguimiento de Postulaciones — Extensión de Chrome & Backend Serverless](https://github.com/Juanhv24/job-tracker)
-Un clic registra una vacante en una Google Sheet: una extensión de Chrome extrae la oferta, un backend en Apps Script redacta el mensaje de contacto y una carta de presentación en PDF con Claude, y una rutina programada sobre Gmail avanza sola la etapa de cada postulación. Ninguna API key viaja dentro de la extensión: todas las credenciales viven en el servidor.
-
-`JavaScript` `Extensión Chrome (MV3)` `Google Apps Script` `Anthropic API` `Gmail API`
+- ⚙️ **[Seguimiento de Postulaciones — Extensión de Chrome & Backend Serverless](https://github.com/Juanhv24/job-tracker)** · Un clic registra una vacante en una Google Sheet: un backend en Apps Script redacta el mensaje de contacto y una carta de presentación con Claude, y una rutina programada sobre Gmail avanza la etapa de cada postulación. `JavaScript` `Extensión Chrome (MV3)` `Google Apps Script` `Anthropic API`
+- 🏦 **[Predicción de Churn — Beta Bank](https://github.com/Juanhv24/Beta-Bank)** · Clasificador de abandono sobre un dataset desbalanceado: un Random Forest con sobremuestreo de la clase minoritaria alcanzó **F1 0.62** y **AUC-ROC 0.86** en el conjunto de prueba, por encima de la meta de 0.59. `Scikit-Learn` `Random Forest`
 
 ---
 
 ## 🚧 En Desarrollo
 
 - 🧬 **[Expresión de Proteínas en Ratones — Aprendizaje Supervisado](https://github.com/Juanhv24/mice-supervisado)** · Proyecto de curso con datos de expresión de proteínas en un modelo murino de síndrome de Down: EDA, regresión y clasificación multiclase. `Scikit-Learn` `uv`
-- 🇨🇴 **Serie con datos abiertos de Colombia** · EDA de siniestros del SOAT, análisis de brechas de inclusión financiera y acceso a crédito de micronegocios con la encuesta del DANE.
 
 ---
 
