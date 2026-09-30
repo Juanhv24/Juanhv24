@@ -102,6 +102,20 @@ Interactive dashboard over **9.7 million** New York yellow-taxi trips: where and
 
 ---
 
+### 📈 [Colombian Exchange Rate (TRM) — Forecast with Risk Bands](https://github.com/Juanhv24/Time-Series-Colombia) · [Live dashboard](https://juanhv24.github.io/Time-Series-Colombia/)
+Box-Jenkins study of nearly 35 years of Colombia's official COP/USD rate, from the daily series to an **ARIMA(0,1,1) + GARCH(1,1)** model for the monthly average. The dashboard turns 5,000 simulated scenarios into risk bands and into the probability that the rate exceeds a reference level: the point forecast does not beat a random walk, but the GARCH bands are well calibrated, which is what matters for budgeting.
+
+| Metric | Result |
+|--------|--------|
+| Monthly observations | **416** (1991–2026) |
+| Point forecast vs random walk | **No significant difference** (Diebold-Mariano p = 0.16) |
+| Months outside the 95% band | **6.7%** (5% expected; 11.7% with constant variance) |
+| Forecast horizon | **12 months** |
+
+`Python` `Statsmodels` `arch` `uv` `pytest` `ECharts` `GitHub Pages`
+
+---
+
 ### 🏦 [Credit Origination Model & Vendor Benchmarking](https://github.com/Juanhv24/credit-origination-model)
 Full credit-scoring pipeline with out-of-time validation, SHAP audit and an ethical-AI analysis. Comparing Gender-inclusive vs Gender-blind models showed a **1.96 pp GINI** cost for a fairer system, and no external vendor outperformed the internal model.
 
@@ -137,7 +151,6 @@ One click logs a job posting into a Google Sheet: a Chrome extension scrapes the
 
 ## 🚧 In Progress
 
-- 📈 **[Colombian Exchange Rate (TRM) — Time Series](https://github.com/Juanhv24/Time-Series-Colombia)** · Box-Jenkins analysis of the TRM from 1991 to 2026. Daily log-returns behave like white noise, while the monthly average shows an MA(1) structure explained by how the indicator is averaged, not by predictability. `Statsmodels` `ARIMA/SARIMA` `uv`
 - 🧬 **[Mice Protein Expression — Supervised Learning](https://github.com/Juanhv24/mice-supervisado)** · Course project on protein expression data from a mouse model of Down syndrome: EDA, regression and multiclass classification. `Scikit-Learn` `uv`
 - 🇨🇴 **Colombian open-data series** · Vehicle insurance (SOAT) claims EDA, financial inclusion gap analysis and SME credit access with DANE micro-business data.
 

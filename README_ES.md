@@ -102,6 +102,20 @@ Tablero interactivo sobre **9.7 millones** de viajes de taxis amarillos de Nueva
 
 ---
 
+### 📈 [Tasa de Cambio (TRM) de Colombia — Pronóstico con Bandas de Riesgo](https://github.com/Juanhv24/Time-Series-Colombia) · [Ver tablero](https://juanhv24.github.io/Time-Series-Colombia/)
+Estudio Box-Jenkins de casi 35 años de la TRM, desde la serie diaria hasta un modelo **ARIMA(0,1,1) + GARCH(1,1)** para el promedio mensual. El tablero convierte 5.000 escenarios simulados en bandas de riesgo y en la probabilidad de que la tasa supere un nivel de referencia: el pronóstico puntual no le gana a la caminata aleatoria, pero las bandas con GARCH quedan bien calibradas, que es lo que importa para presupuestar.
+
+| Métrica | Resultado |
+|---------|-----------|
+| Observaciones mensuales | **416** (1991–2026) |
+| Pronóstico puntual frente a caminata aleatoria | **Sin diferencia significativa** (Diebold-Mariano p = 0.16) |
+| Meses fuera de la banda del 95% | **6.7%** (5% esperado; 11.7% con varianza constante) |
+| Horizonte de pronóstico | **12 meses** |
+
+`Python` `Statsmodels` `arch` `uv` `pytest` `ECharts` `GitHub Pages`
+
+---
+
 ### 🏦 [Modelo de Originación Crediticia & Benchmarking de Proveedores](https://github.com/Juanhv24/credit-origination-model)
 Pipeline completo de scoring crediticio con validación fuera de tiempo (OOT), auditoría SHAP y análisis de IA ética. La comparación de modelos con y sin la variable Género mostró un costo de **1.96 pp de GINI** a cambio de un sistema más justo, y ningún proveedor externo superó al modelo interno.
 
@@ -137,7 +151,6 @@ Un clic registra una vacante en una Google Sheet: una extensión de Chrome extra
 
 ## 🚧 En Desarrollo
 
-- 📈 **[Tasa de Cambio (TRM) de Colombia — Series de Tiempo](https://github.com/Juanhv24/Time-Series-Colombia)** · Análisis Box-Jenkins de la TRM entre 1991 y 2026. El log-retorno diario se comporta como ruido blanco, mientras que el promedio mensual muestra una estructura MA(1) que se explica por la forma en que se promedia el indicador y no por una capacidad de predicción. `Statsmodels` `ARIMA/SARIMA` `uv`
 - 🧬 **[Expresión de Proteínas en Ratones — Aprendizaje Supervisado](https://github.com/Juanhv24/mice-supervisado)** · Proyecto de curso con datos de expresión de proteínas en un modelo murino de síndrome de Down: EDA, regresión y clasificación multiclase. `Scikit-Learn` `uv`
 - 🇨🇴 **Serie con datos abiertos de Colombia** · EDA de siniestros del SOAT, análisis de brechas de inclusión financiera y acceso a crédito de micronegocios con la encuesta del DANE.
 
