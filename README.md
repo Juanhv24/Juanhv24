@@ -33,7 +33,7 @@
 
 I'm a **Data Scientist** completing a professional specialization in **Statistical Analytics**. My background in **Biology** gave me a scientific way of working: frame the question well, check the evidence, and justify every decision.
 
-I work with data from different domains — credit risk, customer retention, urban mobility and financial time series — with one common thread: understand the data before modeling it, choose methods that fit the problem, and deliver explainable results that people can act on.
+I work with data from different domains — credit risk, fraud detection, customer retention, urban mobility and financial time series — with one common thread: understand the data before modeling it, choose methods that fit the problem, and deliver explainable results that people can act on.
 
 - 🔬 Biology → Data Science, with an evidence-first approach to every analysis
 - 🧹 Data quality first: validation rules, anomaly detection and imputation grounded in domain knowledge
@@ -62,6 +62,7 @@ I work with data from different domains — credit risk, customer retention, urb
 ![LightGBM](https://img.shields.io/badge/LightGBM-2E8B57?style=for-the-badge)
 ![Optuna](https://img.shields.io/badge/Optuna-3874A6?style=for-the-badge)
 ![SHAP](https://img.shields.io/badge/SHAP-Explainable%20AI-4f8ef7?style=for-the-badge)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
 **Statistics**
 
@@ -87,6 +88,20 @@ I work with data from different domains — credit risk, customer retention, urb
 ---
 
 ## 📂 Featured Projects
+
+### 🛡️ [Transaction Fraud Detection — SQL, LightGBM & Autoencoder](https://github.com/Juanhv24/transaction-fraud-detection)
+End-to-end project on **590,540** e-commerce transactions (IEEE-CIS): SQLite is the single source of data and builds each card's history with window functions, a LightGBM tuned with Optuna under chronological validation ranks the alerts and is explained with SHAP, and a PyTorch autoencoder tests how much fraud can be found without labels.
+
+| Metric | Result |
+|--------|--------|
+| Test PR-AUC (last 41 days) | **0.50** (14.6× random) |
+| Alerts that are fraud, riskiest 1% reviewed | **85.4%** |
+| Fraud caught, riskiest 5% reviewed | **57.5%** |
+| Label-free autoencoder PR-AUC | **0.067** |
+
+`SQL (SQLite)` `Python` `LightGBM` `Optuna` `SHAP` `PyTorch` `uv` `pytest`
+
+---
 
 ### 🚕 [NYC Taxi — Operations & Fare Integrity Dashboard](https://github.com/Juanhv24/nyc-taxi-ops-dashboard) · [Live dashboard](https://juanhv24.github.io/nyc-taxi-ops-dashboard/)
 Interactive dashboard over **9.7 million** New York yellow-taxi trips: where and when demand concentrates, which fares are inconsistent with the official rate card, and how every data-quality issue was treated. Rate-card rules, a robust route-level check and a model-based imputation replace generic outlier thresholds.

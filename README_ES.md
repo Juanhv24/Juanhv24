@@ -33,7 +33,7 @@
 
 Soy **Científico de Datos** en proceso de completar una especialización profesional en **Analítica Estadística**. Mi formación en **Biología** me dio una forma de trabajar basada en el método científico: plantear bien la pregunta, revisar la evidencia y justificar cada decisión.
 
-Trabajo con datos de distintos dominios, como el riesgo crediticio, la retención de clientes, la movilidad urbana y las series de tiempo financieras, con un mismo hilo conductor: entender los datos antes de modelarlos, elegir métodos acordes al problema y entregar resultados explicables que se puedan convertir en decisiones.
+Trabajo con datos de distintos dominios, como el riesgo crediticio, la detección de fraude, la retención de clientes, la movilidad urbana y las series de tiempo financieras, con un mismo hilo conductor: entender los datos antes de modelarlos, elegir métodos acordes al problema y entregar resultados explicables que se puedan convertir en decisiones.
 
 - 🔬 De la Biología a la Ciencia de Datos, con un enfoque basado en la evidencia en cada análisis
 - 🧹 La calidad de los datos primero: reglas de validación, detección de anomalías e imputación con criterio de dominio
@@ -62,6 +62,7 @@ Trabajo con datos de distintos dominios, como el riesgo crediticio, la retenció
 ![LightGBM](https://img.shields.io/badge/LightGBM-2E8B57?style=for-the-badge)
 ![Optuna](https://img.shields.io/badge/Optuna-3874A6?style=for-the-badge)
 ![SHAP](https://img.shields.io/badge/SHAP-IA%20Explicable-4f8ef7?style=for-the-badge)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
 **Estadística**
 
@@ -87,6 +88,20 @@ Trabajo con datos de distintos dominios, como el riesgo crediticio, la retenció
 ---
 
 ## 📂 Proyectos Destacados
+
+### 🛡️ [Detección de Fraude Transaccional — SQL, LightGBM y Autoencoder](https://github.com/Juanhv24/transaction-fraud-detection)
+Proyecto integrador sobre **590,540** transacciones de comercio electrónico (IEEE-CIS): SQLite es la fuente única de datos y construye el historial de cada tarjeta con funciones de ventana, un LightGBM optimizado con Optuna y validación cronológica prioriza las alertas y se explica con SHAP, y un autoencoder en PyTorch mide cuánto fraude se puede encontrar sin etiquetas.
+
+| Métrica | Resultado |
+|---------|-----------|
+| PR-AUC en prueba (últimos 41 días) | **0.50** (14.6 veces el azar) |
+| Alertas que son fraude, revisando el 1% más riesgoso | **85.4%** |
+| Fraude capturado, revisando el 5% más riesgoso | **57.5%** |
+| PR-AUC del autoencoder sin etiquetas | **0.067** |
+
+`SQL (SQLite)` `Python` `LightGBM` `Optuna` `SHAP` `PyTorch` `uv` `pytest`
+
+---
 
 ### 🚕 [Taxis de NYC — Tablero de Operación e Integridad Tarifaria](https://github.com/Juanhv24/nyc-taxi-ops-dashboard) · [Ver tablero](https://juanhv24.github.io/nyc-taxi-ops-dashboard/)
 Tablero interactivo sobre **9.7 millones** de viajes de taxis amarillos de Nueva York: dónde y cuándo se concentra la demanda, qué cobros no son consistentes con el tarifario oficial y qué tratamiento recibió cada problema de calidad de datos. Las reglas del tarifario, una regla robusta por ruta y una imputación basada en modelo reemplazan los umbrales genéricos de detección de atípicos.
